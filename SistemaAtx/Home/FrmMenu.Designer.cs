@@ -77,6 +77,7 @@
             this.backupToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.FecharToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.minimizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel10 = new System.Windows.Forms.Panel();
             this.lblOs = new System.Windows.Forms.Label();
             this.picMaoCaixaOsHoje = new System.Windows.Forms.PictureBox();
@@ -101,7 +102,6 @@
             this.pnlBaseForm = new System.Windows.Forms.Panel();
             this.PicAtx = new System.Windows.Forms.PictureBox();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PnlEsquerda.SuspendLayout();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHelpDesk)).BeginInit();
@@ -173,11 +173,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHelpDesk.AutoSize = true;
             this.lblHelpDesk.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblHelpDesk.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHelpDesk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHelpDesk.ForeColor = System.Drawing.Color.White;
             this.lblHelpDesk.Location = new System.Drawing.Point(70, 23);
             this.lblHelpDesk.Name = "lblHelpDesk";
-            this.lblHelpDesk.Size = new System.Drawing.Size(71, 20);
+            this.lblHelpDesk.Size = new System.Drawing.Size(92, 20);
             this.lblHelpDesk.TabIndex = 1;
             this.lblHelpDesk.Text = "Help Desk";
             this.lblHelpDesk.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -211,11 +211,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblFecharOs.AutoSize = true;
             this.lblFecharOs.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblFecharOs.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecharOs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecharOs.ForeColor = System.Drawing.Color.White;
             this.lblFecharOs.Location = new System.Drawing.Point(70, 23);
             this.lblFecharOs.Name = "lblFecharOs";
-            this.lblFecharOs.Size = new System.Drawing.Size(78, 20);
+            this.lblFecharOs.Size = new System.Drawing.Size(100, 20);
             this.lblFecharOs.TabIndex = 1;
             this.lblFecharOs.Text = "Fechar O.S";
             this.lblFecharOs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -247,11 +247,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNovoOrcamento.AutoSize = true;
             this.lblNovoOrcamento.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblNovoOrcamento.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNovoOrcamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNovoOrcamento.ForeColor = System.Drawing.Color.White;
             this.lblNovoOrcamento.Location = new System.Drawing.Point(70, 23);
             this.lblNovoOrcamento.Name = "lblNovoOrcamento";
-            this.lblNovoOrcamento.Size = new System.Drawing.Size(113, 20);
+            this.lblNovoOrcamento.Size = new System.Drawing.Size(142, 20);
             this.lblNovoOrcamento.TabIndex = 1;
             this.lblNovoOrcamento.Text = "Novo Orçamento";
             this.lblNovoOrcamento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -282,11 +282,11 @@
             // 
             this.lblRelatorioDiario.AutoSize = true;
             this.lblRelatorioDiario.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblRelatorioDiario.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRelatorioDiario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRelatorioDiario.ForeColor = System.Drawing.Color.White;
             this.lblRelatorioDiario.Location = new System.Drawing.Point(70, 24);
             this.lblRelatorioDiario.Name = "lblRelatorioDiario";
-            this.lblRelatorioDiario.Size = new System.Drawing.Size(106, 20);
+            this.lblRelatorioDiario.Size = new System.Drawing.Size(134, 20);
             this.lblRelatorioDiario.TabIndex = 1;
             this.lblRelatorioDiario.Text = "Relatório Diário";
             // 
@@ -317,11 +317,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEstoque.AutoSize = true;
             this.lblEstoque.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblEstoque.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstoque.ForeColor = System.Drawing.Color.White;
             this.lblEstoque.Location = new System.Drawing.Point(70, 23);
             this.lblEstoque.Name = "lblEstoque";
-            this.lblEstoque.Size = new System.Drawing.Size(60, 20);
+            this.lblEstoque.Size = new System.Drawing.Size(76, 20);
             this.lblEstoque.TabIndex = 1;
             this.lblEstoque.Text = "Estoque";
             this.lblEstoque.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -352,11 +352,11 @@
             // 
             this.lblAbrirOs.AutoSize = true;
             this.lblAbrirOs.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblAbrirOs.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAbrirOs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAbrirOs.ForeColor = System.Drawing.Color.White;
             this.lblAbrirOs.Location = new System.Drawing.Point(70, 24);
             this.lblAbrirOs.Name = "lblAbrirOs";
-            this.lblAbrirOs.Size = new System.Drawing.Size(67, 20);
+            this.lblAbrirOs.Size = new System.Drawing.Size(82, 20);
             this.lblAbrirOs.TabIndex = 1;
             this.lblAbrirOs.Text = "Abrir O.S";
             this.lblAbrirOs.Click += new System.EventHandler(this.label4_Click);
@@ -387,11 +387,11 @@
             // 
             this.lblNovaVenda.AutoSize = true;
             this.lblNovaVenda.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblNovaVenda.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNovaVenda.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNovaVenda.ForeColor = System.Drawing.Color.White;
             this.lblNovaVenda.Location = new System.Drawing.Point(70, 24);
             this.lblNovaVenda.Name = "lblNovaVenda";
-            this.lblNovaVenda.Size = new System.Drawing.Size(83, 20);
+            this.lblNovaVenda.Size = new System.Drawing.Size(106, 20);
             this.lblNovaVenda.TabIndex = 1;
             this.lblNovaVenda.Text = "Nova Venda";
             this.lblNovaVenda.Click += new System.EventHandler(this.label2_Click);
@@ -443,22 +443,22 @@
             // LblCargoUsuario
             // 
             this.LblCargoUsuario.AutoSize = true;
-            this.LblCargoUsuario.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCargoUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblCargoUsuario.ForeColor = System.Drawing.Color.White;
             this.LblCargoUsuario.Location = new System.Drawing.Point(89, 33);
             this.LblCargoUsuario.Name = "LblCargoUsuario";
-            this.LblCargoUsuario.Size = new System.Drawing.Size(39, 16);
+            this.LblCargoUsuario.Size = new System.Drawing.Size(49, 16);
             this.LblCargoUsuario.TabIndex = 2;
             this.LblCargoUsuario.Text = "Cargo";
             // 
             // LblNomeUsuario
             // 
             this.LblNomeUsuario.AutoSize = true;
-            this.LblNomeUsuario.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblNomeUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNomeUsuario.ForeColor = System.Drawing.Color.White;
             this.LblNomeUsuario.Location = new System.Drawing.Point(70, 13);
             this.LblNomeUsuario.Name = "LblNomeUsuario";
-            this.LblNomeUsuario.Size = new System.Drawing.Size(86, 20);
+            this.LblNomeUsuario.Size = new System.Drawing.Size(110, 20);
             this.LblNomeUsuario.TabIndex = 1;
             this.LblNomeUsuario.Text = "Mateus Félix";
             // 
@@ -640,6 +640,13 @@
             this.minimizarToolStripMenuItem.Size = new System.Drawing.Size(28, 58);
             this.minimizarToolStripMenuItem.Visible = false;
             this.minimizarToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(31, 58);
+            this.sairToolStripMenuItem.Text = "S";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click_1);
             // 
             // panel10
             // 
@@ -964,13 +971,6 @@
             this.guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
             this.guna2AnimateWindow1.Interval = 700;
             this.guna2AnimateWindow1.TargetForm = this;
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(49, 58);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click_1);
             // 
             // FrmMenu
             // 
