@@ -69,11 +69,11 @@
             this.label1.AutoEllipsis = true;
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Open Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(431, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(224, 28);
+            this.label1.Size = new System.Drawing.Size(233, 25);
             this.label1.TabIndex = 14;
             this.label1.Text = "Cadastro de Estoque";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -127,7 +127,7 @@
             this.txtBuscarNome.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtBuscarNome.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtBuscarNome.FocusedState.Parent = this.txtBuscarNome;
-            this.txtBuscarNome.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscarNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBuscarNome.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtBuscarNome.HoverState.Parent = this.txtBuscarNome;
             this.txtBuscarNome.IconRight = ((System.Drawing.Image)(resources.GetObject("txtBuscarNome.IconRight")));
@@ -177,11 +177,11 @@
             this.CheckBox.CheckedState.BorderThickness = 0;
             this.CheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CheckBox.Font = new System.Drawing.Font("Open Sans", 10F);
+            this.CheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.CheckBox.ForeColor = System.Drawing.Color.White;
-            this.CheckBox.Location = new System.Drawing.Point(869, 60);
+            this.CheckBox.Location = new System.Drawing.Point(876, 60);
             this.CheckBox.Name = "CheckBox";
-            this.CheckBox.Size = new System.Drawing.Size(207, 23);
+            this.CheckBox.Size = new System.Drawing.Size(200, 21);
             this.CheckBox.TabIndex = 29;
             this.CheckBox.Text = "Lançar nos gastos do caixa";
             this.CheckBox.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -204,7 +204,7 @@
             this.txtEstoque.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEstoque.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEstoque.FocusedState.Parent = this.txtEstoque;
-            this.txtEstoque.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEstoque.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEstoque.HoverState.Parent = this.txtEstoque;
             this.txtEstoque.Location = new System.Drawing.Point(362, 10);
@@ -234,7 +234,7 @@
             this.txtNomeProduto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtNomeProduto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNomeProduto.FocusedState.Parent = this.txtNomeProduto;
-            this.txtNomeProduto.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNomeProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNomeProduto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNomeProduto.HoverState.Parent = this.txtNomeProduto;
             this.txtNomeProduto.Location = new System.Drawing.Point(3, 10);
@@ -264,7 +264,7 @@
             this.txtQuantidade.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtQuantidade.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtQuantidade.FocusedState.Parent = this.txtQuantidade;
-            this.txtQuantidade.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQuantidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuantidade.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtQuantidade.HoverState.Parent = this.txtQuantidade;
             this.txtQuantidade.Location = new System.Drawing.Point(721, 10);
@@ -369,7 +369,7 @@
             this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalvar.CustomImages.Parent = this.btnSalvar;
             this.btnSalvar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
-            this.btnSalvar.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
             this.btnSalvar.HoverState.Parent = this.btnSalvar;
             this.btnSalvar.Location = new System.Drawing.Point(3, 3);
@@ -377,7 +377,7 @@
             this.btnSalvar.ShadowDecoration.Parent = this.btnSalvar;
             this.btnSalvar.Size = new System.Drawing.Size(554, 29);
             this.btnSalvar.TabIndex = 26;
-            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.Text = "SAVE";
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // FrmEstoque
