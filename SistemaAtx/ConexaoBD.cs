@@ -12,7 +12,7 @@ namespace SistemaAtx
     {
        
         //CONEXAO COM O BANCO DE DADOS LOCAL
-        public string conec = "SERVER=localhost; DATABASE=atx_tec; UID=root; PWD=; PORT=3306;";
+        public string conec = "SERVER=2.57.91.5; DATABASE=u103483530_atx_sist_tec; UID=u103483530_atxtec; PWD=88563460Deus@; PORT=3306;";
 
 
         public MySqlConnection con = null;
@@ -55,8 +55,8 @@ namespace SistemaAtx
     class ValidaBD
     {
 
-        //CONEXAO COM O BANCO DE DADOS LOCAL
-        string conec = "SERVER=132.255.155.151; DATABASE=painel; UID=mateus; PWD=88563460; PORT=5306;";
+        //CONEXAO COM O BANCO DE DADOS REMOTO
+        string conec = "SERVER=2.57.91.5; DATABASE=u103483530_atx_tec; UID=u103483530_atxsistemas; PWD=88563460Deus@; PORT=3306;";
 
 
         public MySqlConnection con1 = null;

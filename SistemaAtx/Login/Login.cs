@@ -93,13 +93,13 @@ namespace SistemaAtx.Login
                         cmd.ExecuteNonQuery();
                         con1.encerrarCon();
                         
-                 }
-                 catch (Exception ex)
-                  {
+                    }
+                     catch (Exception ex)
+                    {
 
-                     MessageBox.Show("Erro de conexão, Houve um erro ao tentar salvar suas informações na nuvem" + ex, "Erro no Banco de Dados", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Erro de conexão, Houve um erro ao tentar salvar suas informações na nuvem" + ex, "Erro no Banco de Dados", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                  }
+                    }
 
 
                 txtUsuario.Focus();
@@ -142,11 +142,12 @@ namespace SistemaAtx.Login
                     Program.cargoUsuario = Convert.ToString(reader["funcao"]);
 
                 }
-
+                btnEntrar.Text = "Sucesso";
                 FrmMenu form = new FrmMenu();
-                this.Hide();
+                this.Close();
                 form.Show();
                 txtUsuario.Text = "";
+
             }
 
             else
@@ -168,6 +169,7 @@ namespace SistemaAtx.Login
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
+            btnEntrar.Text = "Fazendo Login";
             ChamarLogin();
 
         }
@@ -184,6 +186,7 @@ namespace SistemaAtx.Login
         {
             if (e.KeyCode == Keys.Enter)
             {
+                btnEntrar.Text = "Fazendo Login";
                 ChamarLogin();
             }
         }
@@ -225,10 +228,10 @@ namespace SistemaAtx.Login
         private void Login_Load(object sender, EventArgs e)
         {
 
-            CarregarAtivacao();
             guna2AnimateWindow1.SetAnimateWindow(this);
             guna2ShadowForm1.SetShadowForm(this);
             /* DEFINE A SOMBRA DO FORMULÁRIO AO SER EXBIDO NOS CANTOS */
+            CarregarAtivacao();
             txtUsuario.Text = "";
             txtUsuario.Focus();
             /* LIMPA O CAMPO USUÁRIO E COLOCA O CURSOR NELE */

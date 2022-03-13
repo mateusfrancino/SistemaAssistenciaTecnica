@@ -101,6 +101,7 @@
             this.pnlBaseForm = new System.Windows.Forms.Panel();
             this.PicAtx = new System.Windows.Forms.PictureBox();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PnlEsquerda.SuspendLayout();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHelpDesk)).BeginInit();
@@ -446,7 +447,7 @@
             this.LblCargoUsuario.ForeColor = System.Drawing.Color.White;
             this.LblCargoUsuario.Location = new System.Drawing.Point(89, 33);
             this.LblCargoUsuario.Name = "LblCargoUsuario";
-            this.LblCargoUsuario.Size = new System.Drawing.Size(40, 16);
+            this.LblCargoUsuario.Size = new System.Drawing.Size(39, 16);
             this.LblCargoUsuario.TabIndex = 2;
             this.LblCargoUsuario.Text = "Cargo";
             // 
@@ -495,7 +496,8 @@
             this.ferramentasToolStripMenuItem,
             this.backupToolStripMenuItem1,
             this.FecharToolStripMenuItem,
-            this.minimizarToolStripMenuItem});
+            this.minimizarToolStripMenuItem,
+            this.sairToolStripMenuItem});
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -657,11 +659,11 @@
             // lblOs
             // 
             this.lblOs.AutoSize = true;
-            this.lblOs.Font = new System.Drawing.Font("Open Sans SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOs.ForeColor = System.Drawing.Color.White;
             this.lblOs.Location = new System.Drawing.Point(8, 65);
             this.lblOs.Name = "lblOs";
-            this.lblOs.Size = new System.Drawing.Size(75, 22);
+            this.lblOs.Size = new System.Drawing.Size(81, 20);
             this.lblOs.TabIndex = 9;
             this.lblOs.Text = "O.S Hoje";
             // 
@@ -683,11 +685,11 @@
             this.lblOsHoje.AutoSize = true;
             this.lblOsHoje.BackColor = System.Drawing.Color.Transparent;
             this.lblOsHoje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblOsHoje.Font = new System.Drawing.Font("Open Sans SemiBold", 28F, System.Drawing.FontStyle.Bold);
+            this.lblOsHoje.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold);
             this.lblOsHoje.ForeColor = System.Drawing.Color.White;
             this.lblOsHoje.Location = new System.Drawing.Point(3, 7);
             this.lblOsHoje.Name = "lblOsHoje";
-            this.lblOsHoje.Size = new System.Drawing.Size(45, 52);
+            this.lblOsHoje.Size = new System.Drawing.Size(41, 44);
             this.lblOsHoje.TabIndex = 8;
             this.lblOsHoje.Text = "0";
             this.lblOsHoje.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -710,11 +712,11 @@
             // lblManut
             // 
             this.lblManut.AutoSize = true;
-            this.lblManut.Font = new System.Drawing.Font("Open Sans SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblManut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblManut.ForeColor = System.Drawing.Color.White;
             this.lblManut.Location = new System.Drawing.Point(8, 65);
             this.lblManut.Name = "lblManut";
-            this.lblManut.Size = new System.Drawing.Size(134, 22);
+            this.lblManut.Size = new System.Drawing.Size(139, 20);
             this.lblManut.TabIndex = 11;
             this.lblManut.Text = "Em Manutenção";
             // 
@@ -736,11 +738,11 @@
             this.lblEmManutencao.AutoSize = true;
             this.lblEmManutencao.BackColor = System.Drawing.Color.Transparent;
             this.lblEmManutencao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblEmManutencao.Font = new System.Drawing.Font("Open Sans SemiBold", 28F, System.Drawing.FontStyle.Bold);
+            this.lblEmManutencao.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold);
             this.lblEmManutencao.ForeColor = System.Drawing.Color.White;
             this.lblEmManutencao.Location = new System.Drawing.Point(3, 7);
             this.lblEmManutencao.Name = "lblEmManutencao";
-            this.lblEmManutencao.Size = new System.Drawing.Size(45, 52);
+            this.lblEmManutencao.Size = new System.Drawing.Size(41, 44);
             this.lblEmManutencao.TabIndex = 10;
             this.lblEmManutencao.Text = "0";
             this.lblEmManutencao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -763,11 +765,11 @@
             // lblConcl
             // 
             this.lblConcl.AutoSize = true;
-            this.lblConcl.Font = new System.Drawing.Font("Open Sans SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConcl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblConcl.ForeColor = System.Drawing.Color.White;
             this.lblConcl.Location = new System.Drawing.Point(8, 65);
             this.lblConcl.Name = "lblConcl";
-            this.lblConcl.Size = new System.Drawing.Size(94, 22);
+            this.lblConcl.Size = new System.Drawing.Size(97, 20);
             this.lblConcl.TabIndex = 11;
             this.lblConcl.Text = "Concluídos";
             // 
@@ -789,11 +791,11 @@
             this.lblConcluido.AutoSize = true;
             this.lblConcluido.BackColor = System.Drawing.Color.Transparent;
             this.lblConcluido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblConcluido.Font = new System.Drawing.Font("Open Sans SemiBold", 28F, System.Drawing.FontStyle.Bold);
+            this.lblConcluido.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold);
             this.lblConcluido.ForeColor = System.Drawing.Color.White;
             this.lblConcluido.Location = new System.Drawing.Point(3, 7);
             this.lblConcluido.Name = "lblConcluido";
-            this.lblConcluido.Size = new System.Drawing.Size(45, 52);
+            this.lblConcluido.Size = new System.Drawing.Size(41, 44);
             this.lblConcluido.TabIndex = 10;
             this.lblConcluido.Text = "0";
             this.lblConcluido.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -856,11 +858,11 @@
             this.lblValorOculto.AutoSize = true;
             this.lblValorOculto.BackColor = System.Drawing.Color.Transparent;
             this.lblValorOculto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblValorOculto.Font = new System.Drawing.Font("Open Sans SemiBold", 28F, System.Drawing.FontStyle.Bold);
+            this.lblValorOculto.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold);
             this.lblValorOculto.ForeColor = System.Drawing.Color.White;
             this.lblValorOculto.Location = new System.Drawing.Point(69, 13);
             this.lblValorOculto.Name = "lblValorOculto";
-            this.lblValorOculto.Size = new System.Drawing.Size(128, 52);
+            this.lblValorOculto.Size = new System.Drawing.Size(99, 44);
             this.lblValorOculto.TabIndex = 8;
             this.lblValorOculto.Text = "*****";
             this.lblValorOculto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -868,11 +870,11 @@
             // lblVendas
             // 
             this.lblVendas.AutoSize = true;
-            this.lblVendas.Font = new System.Drawing.Font("Open Sans SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVendas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVendas.ForeColor = System.Drawing.Color.White;
             this.lblVendas.Location = new System.Drawing.Point(9, 63);
             this.lblVendas.Name = "lblVendas";
-            this.lblVendas.Size = new System.Drawing.Size(105, 22);
+            this.lblVendas.Size = new System.Drawing.Size(112, 20);
             this.lblVendas.TabIndex = 7;
             this.lblVendas.Text = "Vendas Hoje";
             // 
@@ -881,11 +883,11 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label9.Font = new System.Drawing.Font("Open Sans SemiBold", 28F, System.Drawing.FontStyle.Bold);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(3, 7);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(79, 52);
+            this.label9.Size = new System.Drawing.Size(81, 44);
             this.label9.TabIndex = 6;
             this.label9.Text = "R$:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -895,11 +897,11 @@
             this.lblVendasHoje.AutoSize = true;
             this.lblVendasHoje.BackColor = System.Drawing.Color.Transparent;
             this.lblVendasHoje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblVendasHoje.Font = new System.Drawing.Font("Open Sans SemiBold", 28F, System.Drawing.FontStyle.Bold);
+            this.lblVendasHoje.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold);
             this.lblVendasHoje.ForeColor = System.Drawing.Color.White;
             this.lblVendasHoje.Location = new System.Drawing.Point(77, 7);
             this.lblVendasHoje.Name = "lblVendasHoje";
-            this.lblVendasHoje.Size = new System.Drawing.Size(99, 52);
+            this.lblVendasHoje.Size = new System.Drawing.Size(97, 44);
             this.lblVendasHoje.TabIndex = 2;
             this.lblVendasHoje.Text = "0,00";
             this.lblVendasHoje.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -962,6 +964,13 @@
             this.guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
             this.guna2AnimateWindow1.Interval = 700;
             this.guna2AnimateWindow1.TargetForm = this;
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(49, 58);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click_1);
             // 
             // FrmMenu
             // 
@@ -1107,5 +1116,6 @@
         private System.Windows.Forms.ToolStripMenuItem dadosEmpresaToolStripMenuItem;
         public System.Windows.Forms.PictureBox PicAtx;
         public System.Windows.Forms.Panel pnlBaseForm;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
     }
 }

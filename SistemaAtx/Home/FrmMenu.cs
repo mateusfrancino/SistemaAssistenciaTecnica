@@ -448,5 +448,13 @@ namespace SistemaAtx
             _objForm.Show();
 
         }
+
+        private void sairToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+            Login.Login frmLogin = new Login.Login();
+            frmLogin.Show();
+
+        }
     }
 }
