@@ -377,7 +377,7 @@
             this.btnSalvar.ShadowDecoration.Parent = this.btnSalvar;
             this.btnSalvar.Size = new System.Drawing.Size(554, 29);
             this.btnSalvar.TabIndex = 26;
-            this.btnSalvar.Text = "SAVE";
+            this.btnSalvar.Text = "Salvar";
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // FrmEstoque

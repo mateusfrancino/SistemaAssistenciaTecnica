@@ -644,8 +644,8 @@
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(31, 58);
-            this.sairToolStripMenuItem.Text = "S";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(62, 58);
+            this.sairToolStripMenuItem.Text = "X Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click_1);
             // 
             // panel10
